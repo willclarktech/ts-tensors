@@ -1,3 +1,7 @@
 {
-	"extends": ["willclarktech"]
+	"extends": ["willclarktech"],
+	"rules": {
+		"functional/type-declaration-immutability": "off",
+		"functional/prefer-immutable-types": "off"
+	}
 }
